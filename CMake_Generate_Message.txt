@@ -1,0 +1,154 @@
+Setting C++ standard
+Setting C++ standard - C++11
+Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19042.
+The C compiler identification is MSVC 19.29.30133.0
+The CXX compiler identification is MSVC 19.29.30133.0
+Detecting C compiler ABI info
+Detecting C compiler ABI info - done
+Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+Detecting C compile features
+Detecting C compile features - done
+Detecting CXX compiler ABI info
+Detecting CXX compiler ABI info - done
+Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+Detecting CXX compile features
+Detecting CXX compile features - done
+Could NOT find Subversion (missing: Subversion_SVN_EXECUTABLE) 
+Found Git: C:/Program Files/Git/cmd/git.exe  
+Found Patch: C:/Program Files/Git/usr/bin/patch.exe  
+Configuring Slicer organization domain [www.na-mic.org]
+Configuring Slicer organization name [NA-MIC]
+Configuring Slicer default home module [Welcome]
+Configuring Slicer default favorite modules [Data, Volumes, Models, Transforms, Markups, SegmentEditor]
+Configuring Slicer text of disclaimer at startup [Thank you for using %1!
+
+This software is not intended for clinical use.]
+Configuring Slicer requires admin account [OFF]
+Configuring Slicer install root [$LOCALAPPDATA/NA-MIC]
+Configuring Slicer release type [Experimental]
+CMake Warning (dev) at CMake/SlicerMacroExtractRepositoryInfo.cmake:94 (message):
+  Skipping repository info extraction: directory [C:/D/S4] is not a GIT or
+  SVN checkout
+Call Stack (most recent call first):
+  CMake/SlicerVersion.cmake:55 (SlicerMacroExtractRepositoryInfo)
+  CMakeLists.txt:193 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Configuring Slicer version [4.13.0-0000-00-00]
+Configuring Slicer revision [0]
+CMake Warning (dev) at CMake/SlicerMacroExtractRepositoryInfo.cmake:94 (message):
+  Skipping repository info extraction: directory [C:/D/S4] is not a GIT or
+  SVN checkout
+Call Stack (most recent call first):
+  CMake/SlicerVersion.cmake:99 (SlicerMacroExtractRepositoryInfo)
+  CMakeLists.txt:193 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Configuring VTK
+  Slicer_VTK_RENDERING_BACKEND is OpenGL2
+  Slicer_VTK_SMP_IMPLEMENTATION_TYPE is TBB
+  Slicer_VTK_VERSION_MAJOR is 9
+Configuring Slicer with Qt 5.15.2 (using modules: Core, Widgets, Multimedia, Network, OpenGL, PrintSupport, UiTools, Xml, XmlPatterns, Svg, Sql, WebEngine, WebEngineWidgets, WebChannel, Script, Test, )
+Setting QT_PLUGINS_DIR: C:/Qt/5.15.2/msvc2019_64/plugins
+Setting QT_BINARY_DIR: C:/Qt/5.15.2/msvc2019_64/bin
+Setting ExternalData_OBJECT_STORES to 'C:/D/S4R/ExternalData/Objects'
+Configuring Slicer for [win-amd64]
+Checking if CMake supports https
+Checking if CMake supports https - ok
+Remote - vtkAddon [OK]
+Remote - jqPlot [OK]
+Remote - MultiVolumeExplorer [OK]
+Remote - MultiVolumeImporter [OK]
+Remote - SimpleFilters [OK]
+Remote - BRAINSTools [OK]
+Remote - DataStore [OK]
+Remote - CompareVolumes [OK]
+Remote - LandmarkRegistration [OK]
+Remote - SurfaceToolbox [OK]
+SuperBuild - First pass
+SuperBuild - TBB_INSTALL_DIR:C:/D/S4R/tbb-install
+SuperBuild - First pass - done
+SuperBuild - Slicer => Requires curl, CTKAppLauncherLib, teem, VTK, ITK, CTK, LibArchive, RapidJSON, SimpleITK, SlicerExecutionModel, qRestAPI, DCMTK, CTKAPPLAUNCHER, python, python-pythonqt-requirements, python-scipy, python-numpy, python-dicom-requirements, python-extension-manager-requirements, python-extension-manager-ssl-requirements, tbb[INCLUDED], JsonCpp, 
+SuperBuild -   curl => Requires zlib, OpenSSL, 
+SuperBuild -     zlib[OK]
+SuperBuild -     ZLIB_INCLUDE_DIR:C:/D/S4R/zlib-install/include
+SuperBuild -     ZLIB_LIBRARY:C:/D/S4R/zlib-install/lib/zlib.lib
+SuperBuild -     ZLIB_ROOT:C:/D/S4R/zlib-install
+SuperBuild -     OpenSSL[OK]
+SuperBuild -     LIB_EAY_DEBUG:C:/D/S4R/OpenSSL-install/Debug/lib/libcrypto.lib
+SuperBuild -     LIB_EAY_RELEASE:C:/D/S4R/OpenSSL-install/Release/lib/libcrypto.lib
+SuperBuild -     SSL_EAY_DEBUG:C:/D/S4R/OpenSSL-install/Debug/lib/libssl.lib
+SuperBuild -     SSL_EAY_RELEASE:C:/D/S4R/OpenSSL-install/Release/lib/libssl.lib
+SuperBuild -     OpenSSL 1.1.1g
+SuperBuild -     OPENSSL_LIBRARY_DIR:C:/D/S4R/OpenSSL-install/$(Configuration)/lib
+SuperBuild -     OPENSSL_EXPORT_LIBRARY_DIR:C:/D/S4R/OpenSSL-install/$(Configuration)/bin
+SuperBuild -     OPENSSL_INCLUDE_DIR:C:/D/S4R/OpenSSL-install/$(Configuration)/include
+SuperBuild -     OPENSSL_LIBRARIES:optimized;C:/D/S4R/OpenSSL-install/Release/lib/libssl.lib;debug;C:/D/S4R/OpenSSL-install/Debug/lib/libssl.lib;optimized;C:/D/S4R/OpenSSL-install/Release/lib/libcrypto.lib;debug;C:/D/S4R/OpenSSL-install/Debug/lib/libcrypto.lib
+SuperBuild -   curl[OK]
+SuperBuild -   CURL_INCLUDE_DIR:C:/D/S4R/curl-install/include
+SuperBuild -   CURL_LIBRARY:C:/D/S4R/curl-install/lib/libcurl.lib
+SuperBuild -   CTKAppLauncherLib[OK]
+SuperBuild -   teem => Requires zlib[INCLUDED], VTK, 
+SuperBuild -     VTK => Requires zlib[INCLUDED], python, tbb[INCLUDED], 
+SuperBuild -       python => Requires bzip2, CTKAPPLAUNCHER, LZMA, zlib[INCLUDED], sqlite, OpenSSL[INCLUDED], 
+SuperBuild -         bzip2[OK]
+SuperBuild -         BZIP2_INCLUDE_DIR:C:/D/S4R/bzip2
+SuperBuild -         BZIP2_LIBRARIES:C:/D/S4R/bzip2-install/lib/libbz2.lib
+SuperBuild -         CTKAPPLAUNCHER => Requires CTKResEdit, 
+SuperBuild -           CTKResEdit[OK]
+SuperBuild -         CTKAPPLAUNCHER[OK]
+SuperBuild -         LZMA[OK]
+SuperBuild -         sqlite[OK]
+SuperBuild -       python[OK]
+SuperBuild -       PYTHON_EXECUTABLE:C:/D/S4R/python-install/bin/PythonSlicer.exe
+SuperBuild -       PYTHON_INCLUDE_DIR:C:/D/S4R/python-install/include
+SuperBuild -       PYTHON_LIBRARY:C:/D/S4R/python-install/libs/python36.lib
+SuperBuild -       PYTHON_DEBUG_LIBRARY:C:/D/S4R/python-install/libs/python36.lib
+SuperBuild -       Python3_ROOT_DIR:C:/D/S4R/python-install
+SuperBuild -       Python3_INCLUDE_DIR:C:/D/S4R/python-install/include
+SuperBuild -       Python3_LIBRARY:C:/D/S4R/python-install/libs/python36.lib
+SuperBuild -       Python3_LIBRARY_DEBUG:C:/D/S4R/python-install/libs/python36.lib
+SuperBuild -       Python3_LIBRARY_RELEASE:C:/D/S4R/python-install/libs/python36.lib
+SuperBuild -       Python3_EXECUTABLE:C:/D/S4R/python-install/bin/PythonSlicer.exe
+SuperBuild -     VTK[OK]
+SuperBuild -   teem[OK]
+SuperBuild -   ITK => Requires zlib[INCLUDED], VTK[INCLUDED], DCMTK, tbb[INCLUDED], 
+SuperBuild -     DCMTK => Requires zlib[INCLUDED], 
+SuperBuild -     DCMTK[OK]
+SuperBuild -   ITK[OK]
+SuperBuild -   CTK => Requires VTK[INCLUDED], ITK[INCLUDED], python[INCLUDED], DCMTK[INCLUDED], 
+SuperBuild -   CTK[OK]
+SuperBuild -   LibArchive => Requires zlib[INCLUDED], zlib[INCLUDED], 
+SuperBuild -   LibArchive[OK]
+SuperBuild -   RapidJSON[OK]
+SuperBuild -   SimpleITK => Requires ITK[INCLUDED], Swig[INCLUDED], python[INCLUDED], python-setuptools, 
+SuperBuild -     python-setuptools => Requires python[INCLUDED], python-ensurepip, 
+SuperBuild -       python-ensurepip => Requires python[INCLUDED], 
+SuperBuild -       python-ensurepip[OK]
+SuperBuild -     python-setuptools[OK]
+SuperBuild -   SimpleITK[OK]
+SuperBuild -   SlicerExecutionModel => Requires ITK[INCLUDED], tbb[INCLUDED], 
+SuperBuild -   SlicerExecutionModel[OK]
+SuperBuild -   qRestAPI[OK]
+SuperBuild -   python-pythonqt-requirements => Requires python[INCLUDED], python-ensurepip[INCLUDED], python-pip, python-setuptools[INCLUDED], python-wheel, 
+SuperBuild -     python-pip => Requires python[INCLUDED], python-ensurepip[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -     python-pip[OK]
+SuperBuild -     python-wheel => Requires python[INCLUDED], python-pip[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -     python-wheel[OK]
+SuperBuild -   python-pythonqt-requirements[OK]
+SuperBuild -   python-scipy => Requires python[INCLUDED], python-ensurepip[INCLUDED], python-numpy, python-pip[INCLUDED], python-setuptools[INCLUDED], python-wheel[INCLUDED], 
+SuperBuild -     python-numpy => Requires python[INCLUDED], python-pip[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -     python-numpy[OK]
+SuperBuild -   python-scipy[OK]
+SuperBuild -   python-dicom-requirements => Requires python[INCLUDED], python-numpy[INCLUDED], python-pip[INCLUDED], python-requests-requirements, python-setuptools[INCLUDED], 
+SuperBuild -     python-requests-requirements => Requires python[INCLUDED], python-pip[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -     python-requests-requirements[OK]
+SuperBuild -   python-dicom-requirements[OK]
+SuperBuild -   python-extension-manager-requirements => Requires python[INCLUDED], python-pip[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -   python-extension-manager-requirements[OK]
+SuperBuild -   python-extension-manager-ssl-requirements => Requires python[INCLUDED], python-pip[INCLUDED], python-requests-requirements[INCLUDED], python-setuptools[INCLUDED], 
+SuperBuild -   python-extension-manager-ssl-requirements[OK]
+SuperBuild -   JsonCpp[OK]
+SuperBuild - Slicer[OK]
+Configuring done
+Generating done
